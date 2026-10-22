@@ -1,8 +1,8 @@
-import Button from "../button/button";
+import React from 'react';
+import Button from "../button/Button";
 
-
-const Card =({name, email, btnName}) =>{
-    return(
+const Card = ({ name, email, btnName }) => {
+    return (
         <div className="card">
             <div className="card-content">
                 <h2 className="card-name">{name}</h2>
@@ -13,7 +13,6 @@ const Card =({name, email, btnName}) =>{
                 <Button name={btnName} />
             </div>
         </div>
-
     );
 };
 
